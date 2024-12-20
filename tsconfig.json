@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "checkJs": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "target": "ESNext",
+    "module": "CommonJS"
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": [
+    "**/*.js",
+    "index.d.ts"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}

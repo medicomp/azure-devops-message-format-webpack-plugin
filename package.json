@@ -1,0 +1,22 @@
+{
+  "name": "azure-devops-message-format-webpack-plugin",
+  "repository": "https://github.com/medicomp/azure-devops-message-format-webpack-plugin",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Webpack plugin that formats build messages using Azure DevOps pipelines logging commands so that warnings are tagged appropriately in build logs",
+  "author": {
+    "name": "Medicomp",
+    "email": "support@medicomp.com"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "webpack": "5.74.0",
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": ""
+  }
+}

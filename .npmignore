@@ -1,0 +1,10 @@
+.vscode/*
+obj/*
+bin/*
+*.targets
+*.njsproj*
+*.csproj*
+tsconfig.json
+jsconfig.json
+tslint.json
+.eslint*
